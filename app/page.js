@@ -3,7 +3,7 @@ import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World }
 
 const Page = () => (
   <div>
-    <Navbar />
+    <Navbar className="bg-primary-black overflow-hidden" />
     <Hero />
     <About />
     <Explore />
